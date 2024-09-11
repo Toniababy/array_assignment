@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input type="text" id="value">
+    <button onclick="add()"> click</button>
+    
+        <p id="display"></p> -->
+
+</body>
+</html>
+<script>
+   
+
+    const ages = [19, 19, 20, 22, 24, 24, 24, 25, 25, 26] 
+    ages.sort()
+    console.log(ages);
+    const minAge = Math.min((19, 19, 20, 22, 24, 24, 24, 25, 25, 26));
+    const maxAge = Math.max((19, 19, 20, 22, 24, 24, 24, 25, 25, 26));
+    console.log(`Min age: ${minAge}, Max age: ${maxAge}`);
+    // console.log(maxAge);
+    
+    
+    // console.log(Math.min(19, 19, 20, 22, 24, 24, 24, 25, 25, 26));
+    // console.log(Math.max(19, 19, 20, 22, 24, 24, 24, 25, 25, 26));
+
+    
+
+    const middleIndex = Math.floor(ages.length / 2);
+    const medianAge = ages.length % 2 === 0 ? (ages[middleIndex - 1] + ages[middleIndex]) / 2 : ages[middleIndex];
+    console.log(`median age: ${medianAge}`);
+   
+    const ageRange = maxAge - minAge;
+    console.log(`age range: ${ageRange}`);
+    
+
+</script>
+    <!-- splice add to an array edit and remove -->
+<!-- array to a string
+ english to code 
+ join    
+-->
+  
